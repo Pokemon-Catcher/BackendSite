@@ -1,0 +1,9 @@
+{
+  "name": "backend-site",
+  "version": "0.0.0",
+  "description": "BackendSite",
+  "main": "server.js",
+  "author": {
+    "name": "Pokemon Catcher"
+  }
+}
