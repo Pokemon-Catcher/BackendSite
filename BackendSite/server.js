@@ -31,5 +31,5 @@ require('./app/routes')(server, {});
 server.use(express.static(__dirname + '/public'));
 
 server.listen(port, hostname, () => {
-    console.log("Check " + port);
+    console.log("Check " + hostname +"\""+port);
 })
