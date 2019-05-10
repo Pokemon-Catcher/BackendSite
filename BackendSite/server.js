@@ -4,9 +4,11 @@ const bodyParser = require('body-parser');
 const { Pool } = require('pg');
 const dotenv = require('dotenv');
 const router = express.Router();
-const port = 8000;
 
 dotenv.config();
+
+const port = process.env.PORT;
+const hostname = process.env.HOSTNAME;
 
 let server = express();
 server.use(bodyParser.urlencoded({ extended: true }));
@@ -28,6 +30,6 @@ require('./app/routes')(server, {});
 
 server.use(express.static(__dirname + '/public'));
 
-server.listen(port, () => {
+server.listen(port, hostname, () => {
     console.log("Check " + port);
 })
