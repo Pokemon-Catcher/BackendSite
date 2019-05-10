@@ -1,0 +1,113 @@
+/* Quincy - HTML Template */
+
+@media only screen and (max-width: 1300px) {
+	.page-wrapper {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main-slider h2 {
+		font-size: 34px;
+	}
+	.main-slider .text {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.page-wrapper {
+		margin-bottom: 0px !important;
+	}
+	.main-header .search-box-btn {
+		color: #222;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.main-slider {
+		margin-top: 0px !important;
+	}
+	.main-slider h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.main-header .header-lower {
+		margin: 0;
+	}
+	.main-slider .dark-heading {
+		font-size: 32px;
+	}
+	.main-slider h1 {
+		font-size: 32px;
+	}
+	.main-slider h4 {
+		font-size: 28px;
+	}
+	.main-slider .text {
+		font-size: 16px !important;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.main-header .social-links-one {
+		top: 0px;
+	}
+	.main-header .header-top .top-left,
+	.main-header .header-top .top-right {
+		float: none !important;
+		text-align: center;
+	}
+	.main-header .header-upper .upper-right {
+		padding: 0px 0px;
+	}
+	.main-header .search-form .form-group input[type="text"],
+	.main-header .search-form .form-group input[type="tel"],
+	.main-header .search-form .form-group input[type="email"],
+	.main-header .search-form .form-group textarea {
+		width: 230px;
+	}
+	.main-slider h2 {
+		font-size: 24px;
+		padding-bottom: 10px;
+	}
+	.main-slider .text {
+		font-size: 13px;
+	}
+	.main-slider .dark-heading,
+	.product-details .basic-details .details-header h4,
+	.sec-title h2 {
+		font-size: 24px;
+	}
+	.main-slider .text.dark-text,
+	.blog-single .inner-box .lower-content .post-meta li {
+		font-size: 13px;
+	}
+	.slider-content .content-text,
+	.checkout-page .lower-content .totals-table li .col.title,
+	.checkout-page .lower-content .totals-table .col,
+	.news-block-five .inner-box .lower-content .post-meta li {
+		font-size: 14px;
+	}
+	
+}
+
+@media only screen and (max-width: 489px) {
+	.header-contact-info {
+		margin-left: 50px;
+	}
+	.main-slider .text {
+		margin-top: -10px;
+		padding-top: 10px;
+	}
+}
